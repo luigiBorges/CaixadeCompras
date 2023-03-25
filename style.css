@@ -1,0 +1,157 @@
+/* Tela Principal */
+
+.body {
+    background-color: rgb(168, 151, 241);
+}
+
+
+.luigi{
+    width: 600px;
+    height: 450px;
+    margin-top: 200px;
+    background-color: rgb(48, 18, 104);
+}
+
+
+/* Botao  */
+
+input[type="submit"]{
+    background-color: rgb(135, 114, 228);
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 20px;
+    color: azure;
+    cursor: pointer;
+    margin: 8px 4px;
+    transition: background 1s;
+    }
+
+
+input[type="submit"] span{
+    position: relative;
+    transition: 0.5s;
+}
+    
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: rgb(107, 3, 3);
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 0);
+    border: 10px;
+}
+
+
+/* Texto Calculadora */
+
+.texto{
+   color: azure; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Caixas de texto */
+
+input[type="text"]:hover{
+    background-color: rgb(0, 0, 0);
+    border: 10px;
+}
+
+
+input[type="number"]:hover{
+    background-color: rgb(0, 0, 0);
+    border: 10px;        
+}
+
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+    background: rgb(0, 0, 0);
+}
+
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    background: rgb(0, 0, 0);
+}
+
+
+input[type="text"]{
+    background-color: rgb(135, 114, 228);
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 20px;
+    color: azure;
+    cursor: auto;
+    margin: 8px 4px;
+    transition: background 1s;
+}
+
+
+input[type="number"]{
+    background-color: rgb(135, 114, 228);
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 20px;
+    color: azure;
+    cursor: auto;
+    margin: 8px 4px;
+    transition: background 1s;
+}
+
+
+/* Placeholder */
+
+::placeholder{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Fim Tela principal */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tela de resultado */
+
+.aula {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(206, 12, 54), rgb(0, 0, 0));
+    color: rgb(255, 253, 253);
+}
+
+
+.aulas {
+    margin-top: 30%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    padding: 100px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right,rgb(0, 0, 0), rgb(206, 12, 54), rgb(2, 2, 2));
+    box-shadow: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
